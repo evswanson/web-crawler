@@ -1,0 +1,20 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Web crawler created through boot.dev tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evswanson/web-crawler.git"
+  },
+  "author": "Evan Swanson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evswanson/web-crawler/issues"
+  },
+  "homepage": "https://github.com/evswanson/web-crawler#readme"
+}
