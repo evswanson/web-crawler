@@ -4,7 +4,7 @@
   "description": "Web crawler created through boot.dev tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node main.js"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/evswanson/web-crawler/issues"
   },
-  "homepage": "https://github.com/evswanson/web-crawler#readme"
+  "homepage": "https://github.com/evswanson/web-crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
