@@ -1,5 +1,5 @@
 const { crawlPage } = require("./crawl.js");
-
+const { printReport } = require("./report.js");
 async function main() {
   // CLI arguments start at the 2nd element
   let args = process.argv.slice(2);
@@ -24,7 +24,7 @@ async function main() {
   console.log("---------------------------------------------");
   // crawlPage(baseURL, currentURL=baseURL, pages={}) - Recursive function
   let pages = await crawlPage(baseURL);
-  console.log("Pages:", pages);
+  await printReport(pages);
   console.log("----------------Parsing End---------------");
 }
 
